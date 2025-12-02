@@ -11,3 +11,6 @@ geometry_msgs/Vector3 centroid
 
 # Timestamp of the detection
 builtin_interfaces/Time timestamp
+
+# CLIP embedding vector (512 dimensions for ViT-B/32)
+float32[] embedding
