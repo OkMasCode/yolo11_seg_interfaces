@@ -14,3 +14,6 @@ builtin_interfaces/Time timestamp
 
 # CLIP embedding vector (512 dimensions for ViT-B/32)
 float32[] embedding
+
+# The Text Embedding (Semantic features)
+float32[] text_embedding
