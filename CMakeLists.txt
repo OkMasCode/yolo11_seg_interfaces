@@ -14,6 +14,8 @@ find_package(builtin_interfaces REQUIRED)
 # Generate custom messages
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DetectedObject.msg"
+  "msg/SemanticObject.msg"
+  "msg/SemanticObjectArray.msg"
   DEPENDENCIES geometry_msgs builtin_interfaces
 )
 
