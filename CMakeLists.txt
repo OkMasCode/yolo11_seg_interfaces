@@ -10,13 +10,27 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(builtin_interfaces REQUIRED)
+# ADDED: Required for new messages
+find_package(std_msgs REQUIRED)
 
 # Generate custom messages
 rosidl_generate_interfaces(${PROJECT_NAME}
+  # --- Your Existing Messages ---
   "msg/DetectedObject.msg"
   "msg/SemanticObject.msg"
   "msg/SemanticObjectArray.msg"
-  DEPENDENCIES geometry_msgs builtin_interfaces
+
+  # --- New YOLO11 Segmentation Messages ---
+  "msg/Point2D.msg"
+  "msg/Vector2.msg"
+  "msg/Pose2D.msg"
+  "msg/BoundingBox2D.msg"
+  "msg/Mask.msg"
+  "msg/Detection.msg"
+  "msg/DetectionArray.msg"
+
+  # Dependencies for BOTH sets of messages
+  DEPENDENCIES geometry_msgs builtin_interfaces std_msgs
 )
 
 if(BUILD_TESTING)

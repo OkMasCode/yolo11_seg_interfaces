@@ -1,0 +1,2 @@
+yolo11_seg_interfaces/Pose2D center
+yolo11_seg_interfaces/Vector2 size

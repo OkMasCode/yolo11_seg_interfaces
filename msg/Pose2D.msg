@@ -1,0 +1,2 @@
+yolo11_seg_interfaces/Point2D position
+float64 theta
