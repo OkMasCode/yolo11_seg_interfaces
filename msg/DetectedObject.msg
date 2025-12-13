@@ -17,3 +17,5 @@ float32[] embedding
 
 # The Text Embedding (Semantic features)
 float32[] text_embedding
+
+float32 similarity
