@@ -1,0 +1,10 @@
+# File: srv/CheckCandidates.srv
+
+string[] candidate_paths   # List of file paths to the images of candidate objects
+string prompt              # The text description (e.g., "a red fire extinguisher")
+float32 threshold          # Minimum similarity score (0.0 to 1.0) required to accept a match
+
+---
+bool match_found           # True if a good candidate was found
+string best_candidate_path # The ID/Path of the best match
+float32 max_score          # The actual score of the best match

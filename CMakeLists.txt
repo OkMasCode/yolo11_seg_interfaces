@@ -19,8 +19,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DetectedObject.msg"
   "msg/SemanticObject.msg"
   "msg/SemanticObjectArray.msg"
-
-  # --- New YOLO11 Segmentation Messages ---
   "msg/Point2D.msg"
   "msg/Vector2.msg"
   "msg/Pose2D.msg"
@@ -28,6 +26,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Mask.msg"
   "msg/Detection.msg"
   "msg/DetectionArray.msg"
+
+  # Services
+  "srv/CheckCandidates.srv"
 
   # Dependencies for BOTH sets of messages
   DEPENDENCIES geometry_msgs builtin_interfaces std_msgs
