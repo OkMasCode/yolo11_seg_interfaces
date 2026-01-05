@@ -7,3 +7,4 @@ string prompt              # The text description (e.g., "a red fire extinguishe
 bool match_found           # True if a good candidate was found
 string best_candidate_id # The ID/Path of the best match
 float32 max_score          # The actual score of the best match
+yolo11_seg_interfaces/Point2D position      # Coordinates of the goal
