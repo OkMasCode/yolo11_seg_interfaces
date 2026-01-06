@@ -1,7 +1,7 @@
 # File: srv/CheckCandidates.srv
 
 string[] candidate_ids   # List of file paths to the images of candidate objects
-string prompt              # The text description (e.g., "a red fire extinguisher")
+string[] prompts              # The text description (e.g., "a red fire extinguisher")
 
 ---
 bool match_found           # True if a good candidate was found
