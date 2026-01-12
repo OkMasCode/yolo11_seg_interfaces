@@ -1,6 +1,6 @@
 # File: srv/CheckCandidates.srv
 
-string[] candidate_ids   # List of file paths to the images of candidate objects
+string[] candidates_ids   # List of file paths to the images of candidate objects
 
 ---
 bool match_found           # True if a good candidate was found
