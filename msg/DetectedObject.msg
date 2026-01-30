@@ -9,6 +9,9 @@ int32 object_id
 # 3D centroid position of the object
 geometry_msgs/Vector3 centroid
 
+geometry_msgs/Vector3 box_min  # <--- NEW
+geometry_msgs/Vector3 box_max  # <--- NEW
+
 # Timestamp of the detection
 builtin_interfaces/Time timestamp
 
