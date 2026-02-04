@@ -21,4 +21,7 @@ float32[] embedding
 # The Text Embedding (Semantic features)
 float32[] text_embedding
 
+# Confidence score from detector
+float32 confidence
+
 float32 similarity

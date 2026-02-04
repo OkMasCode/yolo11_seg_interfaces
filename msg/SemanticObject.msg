@@ -7,3 +7,4 @@ geometry_msgs/Vector3 pose_cam
 geometry_msgs/Vector3 pose_map
 uint32 occurrences
 float32 similarity
+float32 confidence
