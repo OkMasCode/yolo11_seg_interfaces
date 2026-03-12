@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # --- Your Existing Messages ---
   "msg/DetectedObject.msg"
   "msg/DetectedObjectV2.msg"
+  "msg/DetectedObjectV2Array.msg"
   "msg/SemanticObject.msg"
   "msg/SemanticObjectArray.msg"
   "msg/Point2D.msg"
