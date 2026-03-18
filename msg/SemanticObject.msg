@@ -5,6 +5,12 @@ string frame
 builtin_interfaces/Time timestamp
 geometry_msgs/Vector3 pose_cam
 geometry_msgs/Vector3 pose_map
+
+# Bounding-box metadata for downstream map export and visualization
+string bbox_type
+geometry_msgs/Vector3 box_size
+geometry_msgs/Point[] bbox_corners
+
 uint32 occurrences
 float32 similarity
 float32 confidence
