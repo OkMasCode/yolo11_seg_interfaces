@@ -8,7 +8,8 @@ int32 instance_id
 float32 confidence
 
 # The high-dimensional CLIP embedding
-float32[] embedding
+float32[] image_embedding_masked
+float32[] image_embedding_unmasked
 
 # The Text Embedding (Semantic features)
 float32[] text_embedding

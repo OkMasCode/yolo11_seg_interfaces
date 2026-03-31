@@ -15,4 +15,5 @@ geometry_msgs/Point[] bbox_corners
 uint32 occurrences
 float32 similarity
 float32 confidence
-float32[] image_embedding
+float32[] image_embedding_masked
+float32[] image_embedding_unmasked
