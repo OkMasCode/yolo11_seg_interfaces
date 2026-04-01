@@ -31,6 +31,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Mask.msg"
   "msg/Detection.msg"
   "msg/DetectionArray.msg"
+  "msg/ClusterBoundingBox2D.msg"
+  "msg/ClusterDimensions2D.msg"
+  "msg/ClusteredMapObject.msg"
+  "msg/ClusteredMapObjectArray.msg"
 
   # Dependencies for BOTH sets of messages
   DEPENDENCIES geometry_msgs builtin_interfaces sensor_msgs std_msgs
