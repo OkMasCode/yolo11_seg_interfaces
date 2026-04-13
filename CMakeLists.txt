@@ -36,6 +36,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ClusteredMapObject.msg"
   "msg/ClusteredMapObjectArray.msg"
 
+  "srv/GetRoomWaypoint.srv"
+
   # Dependencies for BOTH sets of messages
   DEPENDENCIES geometry_msgs builtin_interfaces sensor_msgs std_msgs
 )
