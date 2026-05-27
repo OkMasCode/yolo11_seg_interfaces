@@ -1,0 +1,8 @@
+# Request
+int32 room_id
+geometry_msgs/PoseStamped goal_pose
+geometry_msgs/PoseStamped start_pose
+---
+# Response
+bool success
+geometry_msgs/PoseStamped approach_pose
